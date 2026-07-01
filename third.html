@@ -11,13 +11,13 @@
             <fieldset>
                 <legend>there you have to write you personal details</legend>
             <label for="name">Name</label>
-            <input type="text" id="name" placeholder="enter your name mental" required>
+            <input type="text" id="name" placeholder="enter your name mental" required maxlength="20">
             <label for="email">Email</label>
             <input type="text" id="email" placeholder="enter your email foolish" required>
             <label for="number">Contact number</label>
             <input type="number" id="number" placeholder="enter your number for ex:- +91 3465757837" required>
             <label for="message">Message as a feedback</label>
-            <textarea type="text" id="message" row="10" cols="13" placeholder="enter your message that you want to share with me" required></textarea>
+            <textarea type="text" id="message" row="10" cols="13" placeholder="enter your message that you want to share with me" autocomplete="on"></textarea>
             </fieldset>
             <select>
                 <option>your want to join this organisation as a critics</option>
@@ -36,13 +36,13 @@
             <fieldset>
                 <legend>this is your personal ideas form for you only</legend>
                 <label for="name">Name</label>
-                <input type="text" id="name" placeholder="enter your name bro"><br><br>
+                <input type="text" id="name" placeholder="enter your name bro" required><br><br>
                 <label for="email">Email</label>
-                <input type="text" id="email" placeholder="enter you email there"><br><br>
+                <input type="text" id="email" placeholder="enter you email there" required><br><br>
                 <label for="number">Number</label>
-                <input type="number" id="number" placeholder="enter many laugh"><br><br>
+                <input type="number" id="number" placeholder="enter many laugh" required minlength="10"><br><br>
                 <label for="date">Date</label>
-                <input type="date" id="date" placeholder="enter your birth"><br><br>
+                <input type="date" id="date" placeholder="enter your birth" readonly><br><br>
                 <label for="file">File</label>
                 <input type="file" id="file" placeholder="enter your beautiful pic in file"><br><br>
                         <label><input type="radio" name="mood" value="happy">Happy</label>
@@ -56,7 +56,7 @@
                         <label for="url">enter your any url there</label>
                         <input type="url" placeholder="enter you memes website"><br><br>
                         <label for="tel">telephone</label>
-                        <input type="tel" placeholder="enter your old telphone number like no one have"><br><br>
+                        <input type="tel" placeholder="enter your old telphone number like no one have" disabled><br><br>
                         <label for="color">color like you</label>
                         <input type="color"><br><br>
                         <label for="time">enter your time</label>
@@ -65,9 +65,13 @@
                         <input type="month"><br><br>
                         <label for="week">week</label>
                         <input type="week"><br><br>
-                        <button title="submit">Submit</button>
+                        <button arial-label="enter your all form by click this button">Submit</button>
             </fieldset>
         </form>
+        <details>
+            <summary>this form tell you how you feel right now and what the new ideas to learn by yourself</summary>
+            <p>hello my name is shristi gaur you can learn more things that i know how to works with your internship and your studies. I can tell you a lot of things like how you can manage you day to day work in this passion</p>
+        </details>
     </div>
 </body>
 </html>
